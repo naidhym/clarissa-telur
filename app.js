@@ -298,26 +298,24 @@ const DATA = [
     ]
   },
   {
-    cat: "Lainnya", icon: "📦",
+    cat: "Rokok", icon: "🚬",
     items: [
       { id:"rk1", n:"Djarum Coklat",       e:"🚬", d:"rokok",      bg:"gray"   },
       { id:"rk2", n:"Samsu",               e:"🚬", d:"rokok",      bg:"gray"   },
       { id:"rk3", n:"Super",               e:"🚬", d:"rokok",      bg:"gray"   },
       { id:"rk4", n:"Magnum",              e:"🚬", d:"rokok",      bg:"gray"   },
-      { id:"at1", n:"Buku",                e:"📓", d:"ATK",        bg:"teal3"  },
-      { id:"at2", n:"Pulpen",              e:"🖊️", d:"ATK",       bg:"teal3"  },
-      { id:"at3", n:"Pensil",              e:"✏️", d:"ATK",       bg:"teal3"  },
-      { id:"at4", n:"Penghapus",           e:"🧽", d:"ATK",        bg:"teal3"  },
-      { id:"kr1", n:"Kerupuk",             e:"🍘", d:"Rp 1.000–2.000", bg:"yellow" },
-      { id:"kr2", n:"Kemplang",            e:"🍘", d:"",           bg:"yellow" },
-      { id:"mai1",n:"Mainan & Aksesoris Anak", e:"🧸", d:"tanyakan ke seller", bg:"yellow" },
+    ]
+  },
+  {
+    cat: "Top Up & Tagihan", icon: "💳",
+    items: [
       { id:"vc1", n:"Voucher WiFi",        e:"📶", d:"Rp 2.500–50.000", bg:"teal3" },
       { id:"vc2", n:"Pulsa",               e:"📱", d:"",           bg:"teal3"  },
       { id:"vc3", n:"Paket Internet",      e:"📡", d:"",           bg:"teal3"  },
       { id:"vc4", n:"Token PLN",           e:"⚡", d:"",           bg:"yellow" },
       { id:"vc5", n:"Tagihan PLN",         e:"⚡", d:"",           bg:"yellow" },
-      { id:"vc6", n:"BPJS",               e:"🏥", d:"",            bg:"teal3"  },
-      { id:"vc7", n:"PDAM",               e:"💧", d:"",            bg:"teal3"  },
+      { id:"vc6", n:"BPJS",                e:"🏥", d:"",           bg:"teal3"  },
+      { id:"vc7", n:"PDAM",                e:"💧", d:"",           bg:"teal3"  },
       { id:"vc8", n:"Top Up Dana",         e:"💳", d:"",           bg:"teal3"  },
       { id:"vc9", n:"Top Up ShopeePay",    e:"🛍️", d:"",          bg:"teal3"  },
       { id:"vc10",n:"Top Up GoPay",        e:"💚", d:"",           bg:"teal3"  },
@@ -327,6 +325,18 @@ const DATA = [
       { id:"vc14",n:"Top Up OVO",          e:"💜", d:"",           bg:"teal3"  },
       { id:"vc15",n:"Top Up Link Aja",     e:"🔴", d:"",           bg:"teal3"  },
       { id:"vc16",n:"Tarik Tunai",         e:"💵", d:"",           bg:"yellow" },
+    ]
+  },
+  {
+    cat: "Lainnya", icon: "📦",
+    items: [
+      { id:"at1", n:"Buku",                e:"📓", d:"ATK",        bg:"teal3"  },
+      { id:"at2", n:"Pulpen",              e:"🖊️", d:"ATK",       bg:"teal3"  },
+      { id:"at3", n:"Pensil",              e:"✏️", d:"ATK",       bg:"teal3"  },
+      { id:"at4", n:"Penghapus",           e:"🧽", d:"ATK",        bg:"teal3"  },
+      { id:"kr1", n:"Kerupuk",             e:"🍘", d:"Rp 1.000–2.000", bg:"yellow" },
+      { id:"kr2", n:"Kemplang",            e:"🍘", d:"",           bg:"yellow" },
+      { id:"mai1",n:"Mainan & Aksesoris Anak", e:"🧸", d:"tanyakan ke seller", bg:"yellow" },
       // CUSTOM
       { id:"lain_custom", n:"Barang Lainnya / Dll", e:"✏️", d:"ketik sendiri", bg:"gray", custom:true },
     ]
